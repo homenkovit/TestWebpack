@@ -1,15 +1,36 @@
 import "./index2.js"
-import "./style.css"
-import "./fonts.css"
+// import "./style.sass"
+// import "./fonts.sass"
 
 
+window.myForm = {
+	validate() {
+		let myForm = document.querySelector('.myForm');
 
+		let errorField = [];
 
+		console.log('Привет')
+	},
 
+	getDate() {
+		// return {
+		// 	fio: querySelector(‘[name =«fio»]’).
+		// 	value = ;
+		// }
+	},
 
+	setDate(obj) {
+		// querySelector(‘[name = «fio»]’).
+		// value = obj.fio;
+		// querySelector(‘[name = «phone»]’).
+		// value = obj.phone;
+	},
 
-const xxx = () => {
-  return console.log("Привет");
-}
+	submit(e) {
 
-xxx();
+	}
+};
+
+const myForm = document.getElementById('myForm');
+
+myForm.addEventListener('submit', window.myForm.validate);

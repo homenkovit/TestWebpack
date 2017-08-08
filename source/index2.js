@@ -1,5 +1,5 @@
-const xxx = () => {
-  return console.log("Привет хуй");
-}
-
-xxx();
+// const xxx = () => {
+//   return console.log("Привет хуй");
+// }
+//
+// xxx();
